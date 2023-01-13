@@ -26,4 +26,9 @@ class ProductsUtilityTest {
     void testGetSumOfStocks() {
         assertEquals(35, productsUtility.getSumOfStocks(products));
     }
+
+    @Test
+    void testGetTotalValueOfStocks() {
+        assertEquals(1_350_000, productsUtility.getTotalValueOfStocks(products));
+    }
 }
