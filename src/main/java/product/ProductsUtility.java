@@ -11,4 +11,12 @@ public class ProductsUtility {
         return sum;
     }
 
+    public int getTotalValueOfStocks(List<Product> products) {
+        int sum = 0;
+        for (Product actual : products
+        ) {
+            sum += actual.getStock() * actual.getPrice();
+        }
+        return sum;
+    }
 }
