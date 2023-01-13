@@ -11,9 +11,5 @@ public class Main {
                 new Address("USA", "Atlanta", "Easy", 12), "johntherockdoe@gmail.com");
 
         System.out.println(costumer);
-
-        Product product = new Product("Hair cutter", "Philips", 18_000);
-
-        System.out.println(product);
     }
 }
