@@ -1,4 +1,6 @@
-public class Person {
+package customer;
+
+public class Costumer {
 
     private String namePrefix;
     private Name name;
@@ -6,7 +8,7 @@ public class Person {
     private Address address;
     private String email;
 
-    public Person(String namePrefix, Name name, int yearOfBirth, Address address, String email) {
+    public Costumer(String namePrefix, Name name, int yearOfBirth, Address address, String email) {
         this.namePrefix = namePrefix;
         this.name = name;
         this.yearOfBirth = yearOfBirth;
@@ -14,7 +16,7 @@ public class Person {
         this.email = email;
     }
 
-    public Person(Name name, int yearOfBirth, Address address, String email) {
+    public Costumer(Name name, int yearOfBirth, Address address, String email) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
         this.address = address;
